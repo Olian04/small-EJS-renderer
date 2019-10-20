@@ -13,7 +13,7 @@ const template = `
 </ul>
 `;
 const output = render(template, {
-	name: 'world',
+  name: 'world',
   foo: {
   	bar: 10
   },
