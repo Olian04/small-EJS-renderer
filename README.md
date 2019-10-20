@@ -20,8 +20,16 @@ const output = render(template, {
   arr: [3, 2, 1]
 });
 
-console.log(output);
-document.body.innerHTML = output;
+console.log(output); /*
+<h1>Hello world!</h1>
+<p>10</p>
+<p>0.5496496332394807</p>
+<ul>
+  <li>3</li>
+  <li>2</li>
+  <li>1</li>
+</ul>
+*/
 ```
 
 https://jsfiddle.net/olian04/msd3gwfr/7/
