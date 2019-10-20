@@ -2,7 +2,10 @@
 
 ```js
 const template = `
-<% if (name) {%><h1>Hello <%= name %>!</h1><%} %>
+<% if (name) {%>
+  <h1>Hello <%= name %>!</h1>
+<%} %>
+
 <p><%= foo.bar %></p>
 <p><%= Math.random(1, 10) %></p>
 
@@ -22,8 +25,10 @@ const output = render(template, {
 
 console.log(output); /*
 <h1>Hello world!</h1>
+
 <p>10</p>
 <p>0.5496496332394807</p>
+
 <ul>
   <li>3</li>
   <li>2</li>
